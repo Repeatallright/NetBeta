@@ -118,5 +118,5 @@ fs.writeFileSync(
 );
 fs.writeFileSync(
   "../client/src/config.txt",
-  `PORT=4000\nPORT=${nets.Ethernet[0].address}`
+  `PORT=4000\nHOST=${nets.Ethernet[0].address}`
 );
