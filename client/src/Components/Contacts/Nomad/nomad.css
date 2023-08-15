@@ -1,0 +1,48 @@
+.nomad_list {
+    color: #fff;
+    font-family: Lato;
+    font-size: 1.6em;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+  }
+  .back_menu {
+    display: none;
+  }
+  
+  .enter_but {
+    /* background: #3577ef; */
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid #fff;
+    padding: 0.3em 1em;
+    font-size: 0.6em;
+    color: #fff;
+    border-radius: 0.3em;
+    font-weight: bold;
+    transition: 0.2s;
+  }
+  .enter_but:hover {
+    background: #ffffff;
+    color: #3577ef;
+  }
+
+  @media (max-width: 1200px) {
+    .nomad_list {
+        width: 100%;
+      }
+
+  }
+  @media (max-width: 690px) {
+    .nomad {
+        display: none;
+        
+      }
+      .back_menu {
+        display: flex;
+        transform: rotate(45deg);
+        font-size: 30px;
+      }
+  }

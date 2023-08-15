@@ -1,0 +1,7 @@
+.mobile_bio_img {
+    margin-top: 2em;
+    border-radius: 50%;
+    width: 10em;
+    height: 10em;
+    border: 3px solid rgba(53, 119, 239, 0.6);
+  }

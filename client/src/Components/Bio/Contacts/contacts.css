@@ -1,0 +1,49 @@
+.user_name_mobile {
+    margin-top: 1em;
+  }
+  .ans_mobile {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
+  .user_name{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .value_mobile {
+    font-size: 1.1em;
+    color: #000000;
+    margin-top: 0;
+  }
+
+  .user_name .ans {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.8em;
+    margin: 0;
+    position: relative;
+  }
+  .user_name .value {
+    margin: 0;
+    transition: 0.2s;
+  }
+  .user_name .value:hover {
+    color: rgba(0, 0, 0, 0.7);
+  }
+  
+
+/* mobile */
+  .user_name_mobile {
+    margin-top: 1em;
+  }
+  .ans_mobile {
+    font-size: 1.1em;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 0;
+  }
+  .value_mobile {
+    font-size: 1.1em;
+    color: #000000;
+    margin-top: 0;
+  }

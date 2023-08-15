@@ -1,0 +1,296 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-family: 'Chakra Petch', sans-serif;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} 
+
+.blockk{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.img_death{
+  display: flex;
+  width: 17%;
+  height: 60%;
+  transform: translateY(-1000px)
+  
+}
+
+
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+
+
+
+
+@media (max-width: 1750px) {
+  .img_death{
+    display: flex;
+    width: 20%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 1600px) {
+  .img_death{
+    display: flex;
+    width: 23%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 1400px) {
+  .img_death{
+    display: flex;
+    width: 25%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 1200px) {
+  .img_death{
+    display: flex;
+    width: 30%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 1000px) {
+  .img_death{
+    display: flex;
+    width: 35%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 750px) {
+  .img_death{
+    display: flex;
+    width: 45%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 649px) {
+  .img_death{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+@media (max-width: 500px) {
+  .img_death{
+    display: flex;
+    width: 80%;
+    height: 60%;
+    transition: 1s;
+    transform: translateY(-1000px)
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sad_message{
+
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: flex-start;
+  font-size: 18px;
+}
+.hello_h{
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.hello{
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.close{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media (max-width: 1000px) {
+  .sad_message{
+    width: 50%;
+  }
+}
+
+@media (max-width: 700px) {
+  .sad_message{
+    padding: 10px;
+    border: 2px dashed #000;
+    width: 70%;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 700px) {
+  .sad_message{
+    width: 80%;
+    font-size: 16px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image{
+  width: 40%;
+  padding: 0.4em;
+  outline: none;
+  background: rgba(0, 0, 0, 0.0001);
+  border: 0.5px solid rgba(0, 0, 0, 0.24);
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 0.5em 0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #6b6b6b;
+  
+}
+.image:hover{
+background-color: #000;
+border: 0.5px solid #fff;
+color: #fff;
+transition: .4s;
+position: relative;
+
+}
+.image_upload{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  color: #4e4e4e;
+  border: 0px;
+  border-right: 1px solid #e5e5e5;
+  transition: .5s;
+  opacity: 0;
+  background-color: #000;
+
+}
+
+
+.card{
+  width: 200px;
+  height: 200px;
+}

@@ -1,0 +1,141 @@
+.contacts {
+    display: flex;
+    width: 15%;
+    min-height: 100%;
+    position: fixed;
+    justify-content: center;
+    left: 0;
+    background-image: linear-gradient(to top, #1d1d1d 0%, rgb(82, 82, 82) 100%);
+    /* align-items: center;
+    justify-content: center; */
+    z-index: 1;
+    bottom: 0;
+    top: 0;
+    overflow: overlay;
+
+  }
+  
+
+
+
+  .contacts::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .contacts .container_cont {
+    display: flex;
+    width: 85%;
+    z-index: 3;
+    margin-top: .4em;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+  .version_pr{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 16px;
+    z-index: 100;
+  }
+
+  @media (max-width: 1600px) {
+    .contacts {
+      width: 15%;
+    }
+    .contacts_back {
+      width: 15%;
+    }
+  }
+
+  @media (max-width: 1400px) {
+    .contacts {
+      width: 17%;
+    }
+    .contacts_back {
+      width: 17%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .contacts {
+      width: 19%;
+    }
+    .contacts_back {
+      width: 19%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contacts {
+      width: 21%;
+      display: flex;
+    }
+    .contacts_back {
+      width: 21%;
+    }
+    .contacts .container {
+      width: 95%;
+    }
+}
+
+@media (max-width: 750px) {
+    .contacts {
+      width: 22%;
+      display: flex;
+    }
+    .contacts_back {
+      width: 22%;
+    }
+    .contacts .container {
+      width: 95%;
+    }
+}
+
+@media (max-width: 650px) {
+  .contacts {
+    width: 22%;
+    display: flex;
+  }
+  .contacts_back {
+    width: 22%;
+  }
+  .contacts .container {
+    width: 95%;
+  }
+  .channels_input {
+    padding: 0.2em;
+  }
+}
+
+@media (max-width: 649px) {
+  .contacts {
+    width: 40%;
+    display: flex;
+    transform: translate(-100%);
+    transition: 0.5s;
+  }
+  .contacts_back {
+    width: 100%;
+  }
+  .nomad {
+    display: none;
+  }
+  .back_menu {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+    .contacts {
+      width: 50%;
+      display: flex;
+      transform: translate(-100%);
+      transition: 0.5s;
+    }
+    .contacts_back {
+      width: 100%;
+    }
+}

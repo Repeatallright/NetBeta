@@ -1,0 +1,56 @@
+.tread_main {
+    display: flex;
+    width: 95%;
+    flex-direction: column;
+    margin-bottom: 5.5em;
+    margin-top: 4em;
+  }
+  .tread_block {
+    width: 100%;
+    display: flex;
+    align-content: flex-end;
+    margin: 1em 0;
+  }
+
+  .person_tread {
+    background-image: linear-gradient(
+      -60deg,
+      #3d3393 0%,
+      #2b76b9 37%,
+      #1babd6 65%,
+      #eb35d9 100%
+    );
+    color: rgb(255, 255, 255);
+    border-radius: 2em;
+    padding: 1em;
+    max-width: 80%;
+  }
+
+  .tread_info {
+    display: flex;
+    margin-bottom: 0.6em;
+    font-size: 1.1em;
+  }
+
+  .tread_name {
+    padding-right: 0.5em;
+  }
+
+  .user {
+    justify-content: flex-end;
+  }
+  .friend {
+    justify-content: flex-start;
+  }
+
+
+  
+  .post_time::before,
+  .post_time::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0 1em;
+    margin: 0 1em;
+  }

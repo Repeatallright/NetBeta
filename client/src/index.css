@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+    
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+*{
+  font-family: 'Chakra Petch', sans-serif;
+  font-style: normal;
+}
+
+
+
+.tread_main {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin-bottom: 5.5em;
+  margin-top: 4em;
+}
+.tread_block {
+  width: 100%;
+  display: flex;
+  align-content: flex-end;
+  margin: 1em 0;
+}
+.person_tread {
+  background-image: linear-gradient(
+    -60deg,
+    #3d3393 0%,
+    #2b76b9 37%,
+    #1babd6 65%,
+    #eb35d9 100%
+  );
+  color: rgb(255, 255, 255);
+  border-radius: 2em;
+  padding: 1em;
+  max-width: 80%;
+}
+.tread_info {
+  display: flex;
+  margin-bottom: 0.6em;
+  font-size: 1.1em;
+}
+
+.tread_name {
+  padding-right: 0.5em;
+}
+.user {
+  justify-content: flex-end;
+}
+.friend {
+  justify-content: flex-start;
+}
+.return_news_main {
+  position: absolute;
+  top: 0.5em;
+  left: 0.5em;
+  border: 0;
+  background: none;
+  color: #000000;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+.upload_messages {
+  position: absolute;
+  top: 0.3em;
+  right: 0.5em;
+  border: 0;
+  background: none;
+  color: #000000;
+  font-size: 1.4em;
+  font-weight: bold;
+  text-align: center;
+}
+.some_little {
+  font-size: 0.7em;
+  text-align: center;
+}
+
+.treads_show_main {
+  display: flex;
+  width: 95%;
+  flex-direction: column;
+  margin-bottom: 5.5em;
+  align-items: flex-start;
+}
+.tread_item {
+  display: flex;
+  text-decoration: none;
+  flex-direction: row;
+  margin-top: 1em;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  padding-bottom: 1em;
+  width: 100%;
+  color: #000;
+}
+.tread_item_img {
+  border-radius: 5px;
+  display: block;
+  width: 4em;
+  height: 4em;
+  margin-right: 1em;
+}
+.tread_item_name {
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+.last_message {
+}   

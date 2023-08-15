@@ -1,0 +1,15 @@
+.exite_but,
+.exite_but_user {
+  padding: 0.3em 2em;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 0.4em;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  bottom: 1em;
+  box-shadow: 0.5px 0.5px 3px 0.5px #747474;
+  border: 1px solid rgba(0, 0, 0, 0.7);
+  position: absolute;
+  z-index: 10;
+}

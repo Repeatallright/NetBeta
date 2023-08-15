@@ -1,0 +1,133 @@
+/* News block */
+
+.news_main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5.5em;
+    align-items: center;
+    margin-top: 3em;
+    width: 100%;
+    transition: .1s;
+  }
+
+
+
+  @media (max-width: 1400px) {
+    .news_main {
+        margin-bottom: 4.5em;
+      }
+  }
+
+
+  /* post block */
+
+  .post {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: 0;
+    margin: 5px;
+    justify-content: space-around;
+    transition: 1s;
+
+    
+  }
+  .choosed_bl{
+    background-color: rgba(0, 0, 0, 0.179);
+    border-radius: 10px;
+    transition: .1s;
+  }
+
+  .post_body {
+    transition: .1s;
+    display: flex;
+    width: 95%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+  .main_block{
+    display: flex;
+
+  }
+  .close_block{
+    margin-right: 15px;
+  }
+  
+  .post_img {
+    border-radius: 5px;
+    display: block;
+    width: 3em;
+    height: 3em;
+    margin-right: 1em;
+    
+  }
+  .person_name {
+    display: flex;
+    font-weight: bold;
+  }
+  .person_post_date {
+    font-weight: 400;
+    margin-left: 0.8em;
+    color: rgba(0, 0, 0, 0.6);
+  }
+  .person_content {
+    margin-top: 0.4em;
+    display: flex;
+    flex-direction: column;
+  }
+  .post_time {
+    margin: 0;
+    margin-bottom: 1em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .post_time::before,
+  .post_time::after {
+    content: "";
+    width: 50%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0 1em;
+    margin: 0 1em;
+  }
+
+  .post_imgs{
+    margin-top: 1em;
+    max-width: 40%;
+    max-height: 100vh;
+    box-shadow:  5px 5px 10px #d0d0d0,
+             -5px -5px 10px #f0f0f0;
+  }
+
+
+
+  @media (max-width: 1600px) {
+    .news_main{
+      margin-top: 4em;
+    }
+  }
+
+
+  @media (max-width: 1000px) {
+    .post_imgs{
+      margin-top: 1em;
+      max-width: 60%;
+      max-height: 50%;
+    }
+  }
+
+
+  @media (max-width: 500px) {
+    .post_imgs{
+      margin-top: 1em;
+      max-width: 90%;
+      max-height: 70%;
+    }
+  }

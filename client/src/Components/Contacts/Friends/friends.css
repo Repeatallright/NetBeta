@@ -1,0 +1,71 @@
+.friends {
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+  }
+  .friends_logo {
+    width: 100%;
+    color: #fff;
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+  }
+  .friends_list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+  }
+  .friend_item {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin: 0.5em 0;
+  }
+  .friend_img {
+    border-radius: 5px;
+    width: 2em;
+  }
+  .friend_name {
+    opacity: 0.7;
+    color: #fff;
+    font-size: 1em;
+    padding-left: 1em;
+    margin: 0;
+    display: inline;
+  }
+  .is_online {
+    display: block;
+    margin-right: 0.5em;
+    width: 0.5em;
+    height: 0.5em;
+    border-radius: 50%;
+    background: #646464;
+  }
+  .online_true {
+    background: #70cc16;
+  }
+
+  @media (max-width: 1200px) {
+    .friends {
+        width: 100%;
+      }
+  }
+
+
+  @media (max-width: 1000px) {
+    .friends {
+        width: 100%;
+        font-size: 0.9em;
+      }
+  }
+
+  
+  @media (max-width: 600px) {
+    .friends_logo {
+        width: 90%;
+      }
+
+  }

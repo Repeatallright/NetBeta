@@ -1,0 +1,45 @@
+.bio_message {
+    margin: 1em 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .send_message,
+  .add_friend {
+    display: flex;
+    padding: 0.3em 2.5em;
+    background: #3577ef;
+    border-radius: 0.4em;
+    color: #fff;
+    text-decoration: none;
+    align-items: center;
+    margin-right: 0.5em;
+    box-shadow: 0.5px 0.5px 3px 0.5px #747474;
+    position: relative;
+    border: 1px solid #3577ef;
+  }
+
+  @media (max-width: 1750px) {
+    .send_message,
+    .add_friend {
+      padding: 0.2em 2em;
+      background: #3577ef;
+      border-radius: 0.4em;
+      color: #fff;
+      text-decoration: none;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .bio_message {
+        justify-content: flex-start;
+      }
+
+      .send_message,
+  .add_friend {
+    margin-right: 0;
+  }
+  }

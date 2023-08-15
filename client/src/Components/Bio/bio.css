@@ -1,0 +1,191 @@
+.bio {
+    display: flex;
+    width: 12%;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.15);
+    right: 0;
+    top: 0;
+  }
+
+  .mobile_bio {
+    background: #ffffff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+  }
+
+  .bio .container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    overflow: overlay;
+    
+  }
+
+
+
+  .mobile_bio_main {
+    margin-top: 1em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .close_mobile_bio {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    opacity: 0.6;
+    font-size: 1.4em;
+  }
+
+  .bio_main {
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+  }
+  .bio img {
+    background-size: cover;
+    width: 100%;
+    display: block;
+  }
+  .bio_main .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+  .describe {
+    font-size: 0.8em;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 0;
+  }
+  .bio_contacts {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  .bio_inputs {
+    width: 80%;
+    padding: 0.4em;
+    outline: none;
+    background: rgba(0, 0, 0, 0.0001);
+    border: 0.5px solid rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 1em;
+    margin: 0.5em 0;
+    border-bottom: 0.5px solid rgba(0, 0, 0, 0.24);
+  }
+
+  p
+
+  .mobile_bio .name {
+    font-size: 1.6em;
+    font-weight: bold;
+  }
+  
+  .bio_mobile_contacts {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em 0;
+  }
+  .bio_mobile_contacts .con {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 1.3em;
+  }
+  .user_name_mobile {
+    margin-top: 1em;
+  }
+  .close_mobile_bio{
+    color: #000;
+  }
+
+  @media (max-width: 1750px) {
+    .bio_main {
+      padding: 0.5em;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+}
+
+@media (max-width: 1600px) {
+    .bio {
+        width: 14%;
+      }
+}
+
+@media (max-width: 1400px) {
+    .bio {
+        width: 15%;
+      }
+      .bio_contacts {
+        width: 65%;
+      }
+}
+
+@media (max-width: 1200px) {
+    .bio {
+        width: 16%;
+      }
+      .bio_main {
+        width: 90%;
+      }
+      .bio_contacts {
+        width: 80%;
+      }
+      .send_message,
+      .add_friend {
+        margin-right: 0;
+      }
+      .bio_message {
+        justify-content: flex-start;
+      }
+}
+
+@media (max-width: 1000px) {
+    .bio {
+        width: 18%;
+      }
+      .bio_contacts {
+        width: 80%;
+      }
+}
+
+@media (max-width: 750px) {
+    .bio {
+        width: 20%;
+      }
+      .bio_contacts {
+        width: 80%;
+      }
+}
+
+@media (max-width: 649px) {
+    .bio {
+        width: 25%;
+      }
+}
+
+@media (max-width: 500px) {
+    .bio {
+        width: 25%;
+        background: none;
+      }
+      .bio img{
+        width: 2.5em;
+      }
+}
